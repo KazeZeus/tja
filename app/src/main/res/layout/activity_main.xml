@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/blue"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Birthday Card"
+                android:textSize="40dp"
+                android:background="@color/slblue"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:id="@+id/t1" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Name From"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                android:padding="20sp"
+                android:id="@+id/e1" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Name To"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                android:padding="20sp"
+                android:id="@+id/e2"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Message"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                android:padding="20sp"
+                android:id="@+id/e3" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Image"
+                android:padding="20sp"
+                android:layout_marginTop="40dp"
+                android:id="@+id/b1"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:id="@+id/imgq"
+                 />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Make Card"
+                android:padding="20sp"
+                android:id="@+id/b2"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
